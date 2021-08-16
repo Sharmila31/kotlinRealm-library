@@ -3,7 +3,7 @@ package com.sharmila.realmlibrary
 import android.content.Context
 import android.widget.Toast
 
-class UserController {
+open class UserController {
 
     public fun showToast(ctx: Context, msg: String) {
 
